@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Urano Sounds",
   description: "Premium Electronic Music Sample Packs",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
