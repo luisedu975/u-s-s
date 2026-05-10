@@ -19,7 +19,7 @@ export default function AudioDemoSection() {
   };
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-24">
+    <section id="audio-demo" className="max-w-7xl mx-auto px-6 py-24">
       <div className="rounded-[40px] border border-white/10 bg-white/[0.03] overflow-hidden">
 
         <div className="grid lg:grid-cols-2 gap-0 items-center">

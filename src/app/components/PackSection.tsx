@@ -100,7 +100,9 @@ export default function PackSection() {
                 Buy Now
               </a>
 
-              <button className="px-10 py-5 rounded-2xl border border-white/10 hover:border-cyan-400 hover:text-cyan-300 transition-all duration-300 text-lg">
+              <button 
+                onClick={() => document.getElementById("audio-demo")?.scrollIntoView({ behavior: "smooth" })}
+                className="px-10 py-5 rounded-2xl border border-white/10 hover:border-cyan-400 hover:text-cyan-300 transition-all duration-300 text-lg">
                 Listen Demo
               </button>
 
