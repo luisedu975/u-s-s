@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Urano Sounds",
   description: "Premium Electronic Music Sample Packs",
   icons: {
-  icon: "/simbolo-urano-sounds.jpeg",
+  icon: "/simbolo-uranosounds-PNG.png",
   },
 };
 
