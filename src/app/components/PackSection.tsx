@@ -22,7 +22,7 @@ export default function PackSection() {
 
         <div>
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-sm uppercase tracking-widest">
-            Intro Launch Price
+            Available Now
           </div>
 
           <h2 className="mt-6 text-5xl font-black leading-tight">
@@ -71,21 +71,17 @@ export default function PackSection() {
           <div className="mt-10 flex flex-wrap items-center gap-6">
             <div>
               <div className="text-sm uppercase tracking-widest text-zinc-500">
-                Launch Price
+                Price
               </div>
 
               <div className="flex items-end gap-3 mt-2">
                 <span className="text-6xl font-black text-cyan-400">
-                  $4.99
-                </span>
-
-                <span className="text-zinc-500 line-through text-2xl pb-2">
                   $9.99
                 </span>
               </div>
 
               <div className="text-sm text-zinc-400 mt-2">
-                Available for the first 10 days only.
+                Premium sounds for modern techno producers.
               </div>
             </div>
           </div>
